@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>EcoFood</title>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="./css/home.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,600&family=Open+Sans&display=swap" rel="stylesheet">
+		<script
+	      src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+	      data-auto-a11y="true"
+	    ></script>
+	</head>
+	<body class="backround">
+		<div class="wrapper">
+			<header>
+				<a href="index.html"><img src="./img/logo.png" alt="EcoFood"/></a>
+				<section class="header-buttons">
+					<a href="login.html" class="button link">Log in</a>
+					<a href="#">Cart <i class="fas fa-shopping-basket"></i>(<span id="count">0</span>)
+					</a>
+					<button id="clearCart" class="button">Clear cart</button>
+				</section>
+				<nav class="header-nav">
+					<i id="hamburger" class="fa fa-bars" style="color:black;"></i>
+					<ul id="header-nav-list">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Catalog</a>
+							<ul>
+								<li><a href="#">Fruits</a></li>
+								<li><a href="#">Vegetables</a></li>
+								<li><a href="#">Greens</a></li>
+							</ul>
+						</li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<hr/>
+				<a href="#" id="goBack" class="button link">Go Back</a>
+				<form class="log" action="#">
+					<label for="name">User name</label>
+					<input type="text" name="name" id="name"
+					placeholder="User name" required/>
+
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password"/>
+
+					<label for="remember me">Remember me</label>
+					<input type="checkbox" name="remember me" id="remember me"/>
+
+					<input type="submit" name="login" value="Log in" class="button" />
+				</form>
+				<hr/>
+			</main>
+			<footer>
+				<section>
+					<article>
+						<h3><i class="fas fa-tree"></i>Healing with Honey</h3>
+						<p>lorenqwerty</p>
+					</article>
+					<article>
+						<h3><i class="fas fa-sun"></i>Healing with Honey</h3>
+						<p>lorenqwerty</p>
+					</article>
+					<article>
+						<h3><i class="fas fa-cloud"></i>Healing with Honey</h3>
+						<p>lorenqwerty</p>
+					</article>
+				</section>
+				<section class="social-icons">
+					<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</section>
+				<p>&copy;All rights reserved.</p>
+			</footer>
+		</div>
+
+		<script type="text/javascript" src="./js/script.js"></script>
+		<script type="text/javascript" src="./js/links.js"></script>
+	</body>
+</html>

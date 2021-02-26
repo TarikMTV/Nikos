@@ -1,0 +1,41 @@
+#subscribe {
+	background: url(../img/empty-bg.jpg);
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+
+}
+
+#subscribe label {
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.products {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#subscribe > input[type="email"] {
+	margin: 10px 0;
+	padding: 9px 12px;
+	width: 192px;
+}
+
+.products > h2 {
+	width: 100%;
+}
+
+.products > article {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.products > article > button {
+	width: 100%;
+}
